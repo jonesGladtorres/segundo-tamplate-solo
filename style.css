@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 98vw;
+    height: 98vh;
+    margin: 0;
+}
+body header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 240px;
+}
+body header div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body header div img{
+
+}
+body header div p{
+    font-size: 18px;
+}
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 260px;
+}
+body main form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.formcorpo{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+}
+.nome-email{
+    display: flex;
+    padding: 25px 0;
+}
+.inputNome-Email{
+    font-size: 20px;
+}
+.assunto-textarea{
+    display: flex;
+    flex-direction: column;
+}
+body main form div div textarea{
+    padding: 20px 0px;
+}
+.assunto{
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+body main form div label{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000
+}
+body main form div input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    outline: none;
+}
+textarea{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    outline: none;
+}
+button{
+    padding: 18px;
+    border-radius: 5px;
+    background-color: #46b5d1;
+    border-color: #46b5d1;
+    color: #fff;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #34869b;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer{
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
