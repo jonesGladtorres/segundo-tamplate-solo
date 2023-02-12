@@ -43,6 +43,11 @@ body main form{
     display: flex;
     padding: 25px 0;
 }
+.nomeemail{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
 .inputNome-Email{
     font-size: 20px;
 }
@@ -97,4 +102,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 50px;
+}
+::placeholder{
+    color: #c7c6c6;
 }
